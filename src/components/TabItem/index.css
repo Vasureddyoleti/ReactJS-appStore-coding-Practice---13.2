@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.list-heading {
+  color: #7b8794;
+  margin-top: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.active-tab {
+  color: #2563eb;
+}
+.hr-line {
+  border-top: 3px solid #7b8794;
+}
+.hr-line-active {
+  border-top: 4px solid #2563eb;
+}
+@media (max-width: 767px) {
+  .list-heading {
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 13px;
+    padding-right: 10px;
+  }
+}
